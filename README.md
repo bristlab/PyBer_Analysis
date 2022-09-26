@@ -91,9 +91,24 @@ Here we will extract the total amount of all fares per city type. Urban areas ta
 	>>> Urban       39854.38
 
 
-
 ## Summary
 
+ | Total Rides | Total Drivers | Total Fares | Average Fare per Rider | Average Fare per Driver
+---|---|----|----|----|----
+Rural | 125 | 78 | $4,327.93 | $34.62 | $55.49
+Suburban | 625 | 490 | $19,356.33 | $30.97 | $39.50
+Urban | 1625 | 2405 | $39,854.38 | $24.53 | $16.57
+
 ![PyBer Ride-Sharing Data (2019)](https://github.com/bristlab/PyBer_Analysis/blob/main/analysis/Fig4.png?raw=true)
+
+We know that urban areas offer the most rides when compared to suburban and rural areas. Urban areas also have the most drivers, which means more competition among drivers, which corresponds with the average fair per driver in urban areas being the lowest. Despite lower fares per ride, urban areas have the highest revenue than suburban and rural areas due to high ride volume.
+
+Conversly, rural areas have the fewest rides, the fewest drivers, the highest fares per ride, and the lowest revenue of all three city types.
+
+We recommend implementing measures that will reduce the price per fare in rural and suburban areas in order to incentivies ridership and increased ride volume. This could be done by utilizing revenue earned in urban areas to subsidize rides in suburban areas. This could be combined with promotions or frequent rider programs in those areas. Increasing the number of drivers will likely be necessary to facilitate the increase in demand. If these measures work, they could be expanded to rural areas as well.
+
+Alternatively, dropping services in rural areas in order to focus on maximizing revenue in urban and suburban areas would be possible, although it's possible that urban markets are already oversaturated.
+
+
 
 
