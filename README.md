@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this analysis we review customer and driver datasets provided by the ride-sharing app Pyber. Our goal is to provide a summary of the data that informs management how much money their drivers are earning in different city types (Urban, Suburban and Rural). We will import multiple datasets representing drivers and the rides they provide to customers, merge them together, then provide an initial summary. While emphasizing the types of cities, we'll extract date that shows total rides, total drivers, total fares, average fare per ride and per driver, as well as the total fare by city type. We will provide a series of charts that illustrate which city types tend to be the most profitable over time.
+In this analysis we review customer and driver datasets provided by the ride-sharing app PyBer. Our goal is to provide a summary of the data that informs management how much money their drivers are earning in different city types (Urban, Suburban and Rural). We will import multiple datasets representing drivers and the rides they provide to customers, merge them together, then provide an initial summary. While emphasizing the types of cities, we'll extract date that shows total rides, total drivers, total fares, average fare per ride and per driver, as well as the total fare by city type. We will provide a series of charts that illustrate which city types tend to be the most profitable over time.
 
 
 ## Results
@@ -35,6 +35,7 @@ To find the total number of drivers per city type, we add together the `driver_c
     >>> Urban       2405
     >>> Name: driver_count, dtype: int64
 
+
 ### Total Fares
 
 By summing the `fare` column of the `pyber_data_df` and grouping by city type, we can see that urban areas earned $39,854.38, suburban areas earned $19,356.33, and rural areas earned $4,327.93.
@@ -61,6 +62,7 @@ Here we determine the average fare per ride by using the `.mean()` function. We 
 	>>> Urban       24.525772
 	>>> Name: fare, dtype: float64
 
+![PyBer Ride-Sharing Data (2019)](https://github.com/bristlab/PyBer_Analysis/blob/main/analysis/Fig1.png?raw=true)
 
 ### Average Fare per Driver
 
@@ -92,4 +94,6 @@ Here we will extract the total amount of all fares per city type. Urban areas ta
 
 ## Summary
 
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types.
+![PyBer Ride-Sharing Data (2019)](https://github.com/bristlab/PyBer_Analysis/blob/main/analysis/Fig1.png?raw=true)
+
+
