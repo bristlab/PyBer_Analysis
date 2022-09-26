@@ -94,6 +94,6 @@ Here we will extract the total amount of all fares per city type. Urban areas ta
 
 ## Summary
 
-![PyBer Ride-Sharing Data (2019)](https://github.com/bristlab/PyBer_Analysis/blob/main/analysis/Fig1.png?raw=true)
+![PyBer Ride-Sharing Data (2019)](https://github.com/bristlab/PyBer_Analysis/blob/main/analysis/Fig4.png?raw=true)
 
 
